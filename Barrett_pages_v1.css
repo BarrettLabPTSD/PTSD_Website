@@ -1,0 +1,132 @@
+body {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.navbar li{
+    display:inline;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.navbar a{
+    display:inline-block;
+    padding:10px;
+}
+
+.my-class  {
+		overflow: auto;
+		width: 100%;
+	}
+
+/* Header/Logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: white;
+  color: cadetblue;
+  font-size: 30px;
+}
+
+/* Table Style */
+table {
+  table-layout: fixed;
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: white;
+  border: 1px solid #DEDEDF;
+  height: 100%;
+  width:  100%;
+}/* Spacing */
+
+td, th {
+  border: 1px solid #DEDEDF;
+  padding-left:  20px;
+  padding-right: 20px;
+  vertical-align: center;
+} 
+
+/* Ordered List Style */
+div ol li {
+ /*this will style the bullets*/
+}
+
+div ol li p {
+/*this will style the text*/
+font-size: 25px;
+}
+
+/* Highlighter Style */
+mark {
+  background-color: white;
+  color: blue;
+}
+
+.Container
+{
+    text-align: center;
+}
+
+    .Container:before
+    {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.Content
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.centre { 
+  text-align: center;
+  /* border: 3px solid green;*/ 
+}
+
+/* Header 0 Style */
+h0 {
+    color: lightslategray;
+    font-size: 48px;
+}
+
+/* Header 1 Style */
+h1 {
+  background-color: lightslategray;
+  color: white
+}
+
+
+h2 {
+  background-color: white;
+  color: lightslategray;
+  text-align: center;
+}
+
+
+/* Paragraph Style */
+p {
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 25px;
+  /* border: 2px solid cadetblue; */
+}
+
+/* Paragraph 2 Style */
+p.2 {
+  color: black;
+  font-size: 22px;
+}
+
+
